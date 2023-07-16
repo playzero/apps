@@ -712,7 +712,9 @@ export const prodParasKusama: Omit<EndpointOption, 'teleport'>[] = [
     info: 'zero',
     paraId: 2236,
     providers: {
-      ZeroNetwork: 'wss://rpc-1.kusama.node.zero.io'
+      zero: 'wss://rpc-1.kusama.node.zero.io',
+      GameDAO: 'wss://rpc.zero.gamedao.co',
+      GAME3: 'wss://rpc.zero.game3.foundation'
     },
     text: 'zero',
     ui: {
